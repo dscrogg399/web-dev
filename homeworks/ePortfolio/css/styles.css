@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-div {
+    margin: 0;
+    background-color: #333;
+}
+
+.nav-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.nav-item:hover{
+    background-color: gray;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+
+.nav-item a:visited{
+    color: white;
+}
+
+.footer-div {
+    display: block;
+}
+.main-footer {
+    position: fixed;
+    text-align: center;
+}
