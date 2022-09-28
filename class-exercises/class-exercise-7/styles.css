@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  font-size: 20px;
+}
+
+#link-1:link {
+  color: red;
+}
+
+#link-2:visited {
+  color:darkgoldenrod
+}
+
+#link-3:hover {
+  color:forestgreen
+}
+
+#link-4:active {
+  color: hotpink;
+}

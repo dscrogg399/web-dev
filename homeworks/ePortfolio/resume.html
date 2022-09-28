@@ -1,29 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/homeworks/ePortfolio/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nabla&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/homeworks/ePortfolio/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
     <title>My Resume</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- nav -->
     <nav>
-        <label class="logo">Daniel Scroggins</label>
-        <ul>
-            <li><a href="index.html">Work Samples</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a class="active" href="resume.html">My Resume</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+      <label class="logo">Daniel Scroggins</label>
+      <a href="index.html">About Me</a>
+      <a href="work.html">Work Samples</a>
+      <a href="resume.html">My Resume</a>
+      <a href="contact.html">Contact Me</a>
     </nav>
-    <header class="main-header">
-        <h1 class="main-title">My Resume</h1>
+
+    <!-- Header -->
+    <header>
+      <h1>Daniel Scroggins</h1>
     </header>
 
-    <footer class="main-footer">Copyright 2022</footer>
-</body>
+    <!-- Content -->
+    <div>
+      <h1>My Resume</h1>
+      <p>
+        Below is my resume. Please feel free to contact me if you have any other
+        questions.
+      </p>
+
+      <!-- contact info -->
+      <article>
+        <h3>Contact Info</h3>
+
+        <p>Address: 1234 5th Ave S, Birmingham, AL 35205</p>
+
+        <p>Phone number: 205-555-5555</p>
+
+        <p>Email: dscrogg1@uab.edu</p>
+      </article>
+
+      <!-- Education -->
+      <article>
+        <h3>Education</h3>
+
+        <details>
+          <summary>Benjamin Russell High School</summary>
+          <div>
+            <ul>
+              <li>Alexander City, AL</li>
+              <li>GPA: 4.0</li>
+              <li>August 2014-May2017</li>
+            </ul>
+          </div>
+        </details>
+        <br />
+        <details>
+          <summary>University of Alabama at Birmingham</summary>
+          <div>
+            <ul>
+              <li>Birmingham, AL</li>
+              <li>Major: BA Computer Science</li>
+              <li>GPA: 3.7</li>
+              <li>August 2017-May2023(expected)</li>
+            </ul>
+          </div>
+        </details>
+      </article>
+
+      <!-- Skills -->
+      <article>
+        <h3>Skills</h3>
+
+        <details>
+          <summary>Programming</summary>
+          <div>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Kotlin</li>
+              <li>Swift</li>
+            </ul>
+          </div>
+        </details>
+        <br />
+        <details>
+          <summary>Software</summary>
+          <div>
+            <ul>
+              <li>Android Studio</li>
+              <li>Xcde</li>
+              <li>Eclipse</li>
+              <li>MySQL Workbench</li>
+              <li>Github</li>
+              <li>Postman</li>
+              <li>Jira</li>
+              <li>Microsoft Office Suite</li>
+            </ul>
+          </div>
+        </details>
+        <br />
+      </article>
+
+      <!-- Experience -->
+      <article>
+        <h3>Experience</h3>
+
+        <details>
+          <summary>Croux Inc. - Development Intern</summary>
+          <div>
+            <ul>
+              <li>Birmingham, AL</li>
+              <li>August 2022-Present</li>
+              <li>
+                Documented different parts of codebase and database for future
+                developer reference
+              </li>
+              <li>Developed on the web app version of the product</li>
+              <li>Acted as a brand ambassador for community outreach events</li>
+            </ul>
+          </div>
+        </details>
+        <br />
+        <details>
+          <summary>Brick and Tin - Runner, Expediter</summary>
+          <div>
+            <ul>
+              <li>Birmingham, AL</li>
+              <li>February 2022-August 2022</li>
+              <li>
+                Ran and served food from the back of house, facilitating
+                customer needs, and ensuring an excellent dining experience
+              </li>
+              <li>
+                Expedited food from the back of house to food runners, ensuring
+                consistency of food and beautiful plating
+              </li>
+            </ul>
+          </div>
+        </details>
+      </article>
+
+      <!-- Projects -->
+      <article>
+        <h3>Projects</h3>
+
+        <details>
+          <summary>Pantree</summary>
+          <div>
+            <ul>
+              <li>Mobile App</li>
+              <li>
+                Group project to develop an Android app that returned recipes to
+                a user based off ingredients they already had
+              </li>
+              <li>
+                Developed three out of five UI screens used for user interaction
+                and linked all screens to backend logic
+              </li>
+              <li>
+                Developed the entire database, networking system, and much of
+                the backend logic using a recipe API
+              </li>
+            </ul>
+          </div>
+        </details>
+      </article>
+
+      <!-- Relevant Coursework -->
+      <article>
+        <h3>Relevant Coursework</h3>
+
+        <table>
+          <tr>
+            <th>Course</th>
+            <th>Description</th>
+            <th>Year Taken</th>
+          </tr>
+
+          <tr>
+            <td>Mobile App Development</td>
+            <td>
+              Fundamental concepts of mobile application development; focused on
+              native application development for Android and iOS; understand
+              application architecture and lifecycle best practices; UX
+              considerations for mobile devices; interact with device sensors;
+              compare native vs hybrid frameworks
+            </td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Web Development</td>
+            <td>
+              Fundamental concepts of web development. Client-side application
+              development using web languages and technologies. Client-server
+              communication. Responsive design. User interaction models.
+              Server-side development.
+            </td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Software Engineering</td>
+            <td>
+              Design and implementation of large-scale software systems,
+              software development life cycle, software requirements and
+              specifications, software design and implementation, verification
+              and validation, project management and team-oriented software
+              development.
+            </td>
+            <td>2022</td>
+          </tr>
+          <caption>
+            The following is coursework that is most relevant to my experience
+            and does not fully encapsulate all of my coursework.
+          </caption>
+        </table>
+      </article>
+    </div>
+  </body>
 </html>
